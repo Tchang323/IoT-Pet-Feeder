@@ -1,5 +1,7 @@
 # IoT Pet Feeder using Raspberry Pi and Blynk App!😻
 
+![image](https://hackmd.io/_uploads/HJy2dV9Oa.png)
+![image](https://hackmd.io/_uploads/S1ShdEcO6.png)
 
 
 
@@ -44,8 +46,8 @@ Therefore, I hope to build an automatic **pet feeder that can proactively replen
 * Blynk App
 
 ##  🐾Setting up your Raspberry Pi
-The first step involves **remote management** of your Raspberry Pi. You can control your Raspberry Pi using either **VNC Viewer** or **VSCode**. Personally, I prefer programming with VSCode. 
-You can find more information on how to set it up in this reference link:
+The first step involves **remote management** of your Raspberry Pi. You can control your Raspberry Pi using either ==**VNC Viewer**== or ==**VSCode**==. Personally, I prefer programming with VSCode. 
+You can find more information on how to set it up in these reference link:
 * [Getting started with your Raspberry Pi](https://www.raspberrypi.com/documentation/computers/getting-started.html)
 * [Remote accessing your RPi via VNC](https://raspberrypi.com/documentation/computers/remote-access.html)
 * [Programming Raspberry pi remotely using VS code (Romote-SSH) ](https://randomnerdtutorials.com/raspberry-pi-remote-ssh-vs-code/)
@@ -73,7 +75,7 @@ git clone https://github.com/WiringPi/WiringPi.git
 ```
 git clone https://github.com/vshymanskyy/blynk-library-py
 ```
-*Note: Since the clone link could vary. If you encounter errors during cloning, try going directly to GitHub and find the latest URL to perform the clone.*
+==*Note: Since the clone link could vary. If you encounter errors during cloning, try going directly to GitHub and find the latest URL to perform the clone.*==
 
 **5. Create a template on Blynk and set up your raspberry pi on it**
 
@@ -85,10 +87,20 @@ Whether you want to use a web app or mobile app with Blynk is fine. If you're un
 ```
 python3 "filename.py"
 ```
-In the blynk-library-py folder, you can add the Python file you want to execute. Here is a simple Python script for **testing an LED**.
+In the blynk-library-py folder, you can add the Python file you want to execute. Here is a simple Python script for ==**testing an LED**==.
 
-Remeber to fill in your devide info in the code, you can find it on Blynk app!
-![image](https://hackmd.io/_uploads/B1n4ErYua.png)
+* You can find your device's AuthToken at the ==device info== area.
+
+![image](https://hackmd.io/_uploads/S1gjJ9m9da.png)
+
+* Simple web dashboard for LED test
+
+![image](https://hackmd.io/_uploads/BkT_uQqua.png)
+* Place the LED on breadboard
+
+![image](https://hackmd.io/_uploads/HJzcFQ9_p.png)
+
+* Python script
 
 ```
 
@@ -338,7 +350,14 @@ Pay attention to **the position of the horn's hole** during assembly, as it shou
 
 ![image](https://hackmd.io/_uploads/BkLMfuKOa.png)
 
-**8. Prepare cat food or small individual items. And then you're good to go!**
+**8. Finally, you can fill the gap between the turntable (blue) and the cardboard, which allows food to fall more precisely into the bowl or plate.**
+
+![image](https://hackmd.io/_uploads/rJ7ANScda.png)
+
+
+**9. Prepare food or small individual items. And then you're good to go!**
+
+![image](https://hackmd.io/_uploads/SywEHr5_6.png)
 
 ## 🐾Create a python script to run petfeeder
 
@@ -490,7 +509,7 @@ except KeyboardInterrupt:
 	   
 ```
 ## 🐾Watch Demo Video!
-https://youtu.be/SxklDhX65yk
+### [Click Here!](https://youtu.be/wYIMP4m8xrk)😻
 
 
 ## 🐾Project Summary and Areas for Improvement💜
